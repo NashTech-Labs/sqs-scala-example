@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>AmazonSQS_Demo_Knolx</artifactId>
+    <artifactId>AmazonSQS_Demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -26,9 +26,6 @@
         <mvn.surefire>2.21.0</mvn.surefire>
         <mvn.compiler>3.7.0</mvn.compiler>
         <mvn.scalatest>2.0.0</mvn.scalatest>
-        <mvn.scoverage>1.3.0</mvn.scoverage>
-
-        <scanamo.alpakka>1.0.0-M12-1+212-9a5e3a31-SNAPSHOT</scanamo.alpakka>
 
     </properties>
 
@@ -48,17 +45,6 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-sqs</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.11.2</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
@@ -113,12 +99,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.typesafe.slick</groupId>
-            <artifactId>slick_2.12</artifactId>
-            <version>3.3.0</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-nop</artifactId>
             <version>1.7.3</version>
@@ -129,12 +109,6 @@
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-actor_2.12</artifactId>
             <version>${akka.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>6.0.6</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.liftweb/lift-json -->
         <dependency>
