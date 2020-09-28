@@ -16,7 +16,7 @@ Now, you can clone this repository and build it.
     path = localhost:8100/user
     {
         "id":0,
-        "name":"yamini"
+        "name":"name"
     }
     
     And login to AWS console -> sqs -> you will see, queue name "testing" with Messages-Available = 1
