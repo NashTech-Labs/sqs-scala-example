@@ -1,4 +1,4 @@
-This template is about getting yourself familiarize with Amazon SQS.
+This template is about making yourself familiar with Amazon SQS.
 
 For setup:
     
